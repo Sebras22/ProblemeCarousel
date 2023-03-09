@@ -1,0 +1,62 @@
+.Searchbar{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    .boutong{
+        border: none;
+        background-color: white;
+        border-radius: 10px 0px 0px 10px;
+        box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .boutond{
+        border: none;
+        background-color: white;
+        border-radius: 10px ;
+        margin-left: 10px;
+        box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    }
+    input{
+        height: 2rem;
+        width: 15rem;
+        border-radius: 0px 10px 10px 0px;
+        border: none;
+        box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.truc{
+    border: 5px solid red;
+}
+
+.top{
+    background-color: #0E3C52;
+    width: 101vw;
+    height: 5rem;
+    margin: 0;
+    border: 5px solid red;
+}
+
+.Titrebas{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.Titrebas2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 3rem;
+    margin-top: 50px;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: #D29628;
+    text-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}

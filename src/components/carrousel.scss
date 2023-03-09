@@ -1,0 +1,14 @@
+.carousel{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 10px;
+    border: 5px solid red;
+    img{
+        width: 20rem;
+        height: 15rem;
+        border-radius: 19px;
+        margin: 4px;
+    }
+}
