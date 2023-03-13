@@ -2,7 +2,6 @@
     margin: 30px;
     display: flex;
     justify-content: center;
-    border: 5px solid red;
     .boutong{
         border: none;
         background-color: white;
@@ -25,16 +24,11 @@
     }
 }
 
-.truc{
-    border: 5px solid red;
-}
-
 .top{
     background-color: #0E3C52;
     width: 101vw;
     height: 5rem;
     margin: 0;
-    border: 5px solid red;
 }
 
 .Titrebas{
@@ -47,7 +41,8 @@
 
 .Titrebas2{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 2rem;
     color: black;
     margin-bottom: 3rem;
     margin-top: 50px;

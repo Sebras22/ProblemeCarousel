@@ -1,5 +1,6 @@
 import React from "react";
 import Carrousel from "../components/Carrousel.jsx";
+import Carrousel2 from "../components/Carrousel2.jsx";
 import CardMenu from "../components/CardMenu.jsx";
 import CardSeasonal from "../components/CardSeasonal.jsx";
 import CardPopular from "../components/CardPopular.jsx";
@@ -9,6 +10,7 @@ import Slider from "../assets/sliders-h.svg";
 import Search from "../assets/search.svg";
 
 const Accueil = () => {
+
   return (
     <div>
       <div className="top"></div>
@@ -30,7 +32,7 @@ const Accueil = () => {
       </div>
       <div>
         <h2>Come and enjoy the Dice</h2>
-        <Carrousel />
+        <Carrousel2 />
       </div>
       <div>
         <h1 className="Titrebas">Menu</h1>
@@ -41,7 +43,7 @@ const Accueil = () => {
         <CardSeasonal />
       </div>
       <div>
-        <h2 className="Titrebas">Popular</h2>
+        <h2 className="Titrebas2">Popular</h2>
         <CardPopular />
       </div>
     </div>
